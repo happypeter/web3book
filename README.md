@@ -13,9 +13,6 @@
     - 端到端加密
     - P2P 网络
     - 数字货币支付
-  - 零消耗市场愿景
-    - 加密经济学
-    - 无摩擦市场
 
 - 第二章 为何 Web3.0 是去中心化的？
   - Web 架构的迭代
@@ -271,6 +268,7 @@ https://blog.csdn.net/shangsongwww/article/details/90269519
   - 只要你有私钥，这些东西就是你的
     - 注意是直接属于你，而不需要基于第三方
       - 这一点是非常让人激动的
+
 # Zero Knowledge
 
 Non-interactive ZKPs for privacy and scalability
@@ -303,6 +301,11 @@ Linux 的网络模块和 Chrome 浏览器是规则的载体。
 
 ## 写作规范
 
+- 每个小节分三部分
+  - 写3000字
+  - 开头一段是一个问题，最后一段是对这个问题的答案
+    - 中间各个部分是对这个问题的展开回答
+
 - 技术书要有个技术书的样子
   - 很多人文政治理念或者故事，都要一笔带过
     - 自由主义
@@ -318,7 +321,3 @@ Linux 的网络模块和 Chrome 浏览器是规则的载体。
 - 引用格式
   - 暂时参考：https://courses.csail.mit.edu/6.857/2014/files/19-fromknecht-velicann-yakoubov-certcoin.pdf
   - 使用 [1] [2] 这样的序号
-
-- 区块链是要作为信任之根
-  - 互联网虽然是一个技术系统，但是安全系统基本上的都是根植于对某个大机构的信任的
-  - 例如 SSL 和 PGP 基于对 CA ，DNS 基于对 ICANN ，支付宝支付基于对阿里，各家机构基于政府，这是个 Chain Of Trust 。PGP 有自己的 Web of Trust 系统，是相对去中心化的，但是实际中落地难度太大

@@ -6,11 +6,12 @@
   * [1.1 概要](01-tech/intro.md)
   * [1.2 硬件的去中心化](01-tech/hardware.md)
   * [1.3 软件的去中心化](01-tech/opensource.md)
-  * [碳基世界，硅基世界分离](01-tech/decouple.md)
-  * [1.9 小结]()
+  * [1.4 数字世界独立化](01-tech/decouple.md)
+  * [1.5 小结]()
 
 * 第二章 为何 Web3.0 是去中心化的？
-  * [2.1 Web 架构的迭代](02-web3/history.md)
+  * [2.1 概要](02-web3/intro.md)
+  * [2.2 Web 架构的迭代](02-web3/history.md)
 
 * 第三章 Web3.0 架构组件
 
@@ -26,6 +27,7 @@
 * 第八章 Web3.0 之上的 App 架构
 
 * 第九章 Web3.0 时代的商业模型
+  * [9.1 概述](09-model/intro.md)
 
 * 第十章 Web3.0 实战 -- Blockstack
  * [1.1 创建 Blockstack ID]()
