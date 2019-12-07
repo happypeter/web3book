@@ -12,6 +12,7 @@
 * 第二章 为何 Web3.0 是去中心化的？
   * [2.1 概要](02-web3/intro.md)
   * [2.2 Web 架构的迭代](02-web3/history.md)
+  * [2.3 智能合约全球愿景](03-web3/smart-c.md)
   * [xx Lee 的 Web3.0 架构的弱点](02-web3/lee.md)
 
 * 第三章 Web3.0 架构组件
