@@ -12,10 +12,11 @@
 * 第二章 为何 Web3.0 是去中心化的？
   * [2.1 概要](02-web3/intro.md)
   * [2.2 Web 架构的迭代](02-web3/history.md)
-  * [2.3 如何理解”可信互联网“？](02-web3/trust.md)
+  * [xx Lee 的 Web3.0 架构的弱点](02-web3/lee.md)
 
 * 第三章 Web3.0 架构组件
   * [3.1 概要](03-comp/intro.md)
+  * [3.2 把一个 Web2.0 应用升级到 Web3.0](03-comp/upgrade.md)
 
 * 第四章 去中心化身份
 
