@@ -3,18 +3,11 @@
 - 第一章 技术发展的去中心趋势
   - 硬件的去中心化
   - 软件的去中心化
-  - 网络空间独立化趋势
+  - 数字世界独立化
 - 第二章 为何 Web3.0 是去中心化的？
   - Web 架构的迭代
   - 智能合约全球愿景
-    - 高阶：DAO
-  - 数据民主化
-    - 数据即我
-    - 互联网公司的监管噩梦
-      - 持有用户数据，也同时意味着对数据隐私负责，想想 Facebook
-      - 如果用户自己持有，公司就不必承担这部分责任了
-    - 自由数据市场
-    - 区块链的启示
+  - 数据产权
   - 打破网络效应
     - 网络效应之恶
     - 垄断形成的根源
@@ -25,11 +18,15 @@
     - 互联网之父的 Solid 项目
       - Solid 大有可以借鉴的内容
   - 密码学和互联网隐私
+    - https://www.activism.net/cypherpunk/manifesto.html 里面很多思想值得读
+    - https://medium.com/@Melt_Dem/im-not-an-international-drug-dealer-3e8e3c75c57c
     - 密码学圣战
     - 密码朋克运动
     - 隐私即安全
   - 区块链为何可以作为信任之根？
     - 密码学
+    - 比特币不仅仅是一个经济系统也是一个监管（ regulatury )系统
+      - https://hbr.org/2017/03/the-blockchain-will-do-to-banks-and-law-firms-what-the-internet-did-to-media
     - 机器共识
       - https://haoqicat.com/ce/cc
       - 比特币
@@ -73,6 +70,10 @@
     - 去中心化 PKI 的实现原理
 
 第四章 去中心化身份
+  - Web2.0 的全局 ID 层
+    - openID 和 OAuth
+    - Facebook Connect
+    - 微信登录
   - 何为用户 ID ？
     - https://didproject.azurewebsites.net/docs/overview.html
     - 虚拟的我
@@ -345,3 +346,6 @@ Linux 的网络模块和 Chrome 浏览器是规则的载体。
 - 引用格式
   - 暂时参考：https://courses.csail.mit.edu/6.857/2014/files/19-fromknecht-velicann-yakoubov-certcoin.pdf
   - 使用 [1] [2] 这样的序号
+
+- Web3 项目案例
+  - https://safenetwork.tech/

@@ -12,3 +12,7 @@ DNS 方面，以 namecoin 为主线讲吧
 
 - e Google Certificate Transparency project
   - 对 CA 的去中心化监督
+
+- 我们访问 google ，CA 会告诉我们这个就是谷歌，
+  - https://www.youtube.com/watch?v=qtOIh93Hvuw
+  - 但是有一次土耳其就因为证书错误，误认为一个其他网站是谷歌
