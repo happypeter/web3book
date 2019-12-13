@@ -1,116 +1,55 @@
 ## 概述
 
-- 初衷
-  - Lee 逐渐发现自己的发明正在被滥用
-    - 很多公司靠占有用户的数据，甚至出卖用户的隐私牟利。
-    - Berners-Lee 认为 Web 有些基本的设计问题是需要被修复的，他自己给出的答案就是 Solid 项目。
-    - 2018年 Inrupt 公司成立，专注 Solid 项目的开发。social linked data
-    - 提供一系列开放标准，协议，工具，帮助大家开发去中心化应用。
+Web 之父 Tim Berners-Lee 目前的项目 Solid 体现了它对下一代互联网的理解。Solid 项目的口号[1]是 
 
-- Solid 项目的口号是 Re-decentralizing the web [1]
-  - 让用户真正拥有自己的数据，实际上是非常的难的
-  - Solid 的愿景跟 Web3.0 是完全一致的，但是缺失了信任，是不可能实现的。
+> Re-decentralizing the web 
 
-- 根据维基百科上的介绍 Solid 有两个目标
-  - 用户真正拥有自己的数据
-  - 更好的隐私
+让 Web 再一次去中心化。从下面的分析中我们也会看到 Tim 的 Web3.0 和本书中的 Web3.0 愿景是高度一致的，但是技术上却有着非常大的区别。本节通过理解 Solid 项目，分析一下 Tim 的技术路线有哪些不足？主流的 Web3.0 思路在这些方面有哪些优势？
 
-弱点 摆脱不了信任。
+本书后续用 Solid 代表“Lee 的 Web3.0"，而单独提到 Web3.0 就特指本书的 Web3.0 架构。
 
-## SOLID 基本架构
+## 愿景一致
 
-- 用户的数据存储在 POD （ personal online data stores ）中，POD 具体存在哪里可以由用户自己去指定。
+Solid 和本书的 Web3.0 愿景是完全一致的，都是让用户摆脱大组织的控制，真正拥有自己的数据。
 
-- Solid 应用于是可以去访问 POD 中的数据，但是必须要满足前提条件
-  - POD 的主人授权了这个应用去访问 POD 中的数据
-  - 可见隐私控制，完全可以由用户自己把握
+Tim 观察到了当代互联网的过度中心化的问题。他发现 Web 正在被大组织滥用，互联网公司靠占有用户的数据牟利，，用户的隐私和数据权益得不到保证。个人不是互联网的主人，而更像是互联网的产品。Web 本来是为个人崛起而生，但是发展到今天，垄断却越来越严重，长尾效应消失。Lee 认为当前 Web 有些基本的设计问题是需要被修复的，他自己给出的答案就是 Solid 项目。2018年 Inrupt 公司成立，专注 Solid 项目的开发。
 
-- 跟 Web3.0 有大量的思想是一致的
-  - 数据和应用解耦
-- Solid 的组件
-  - 提供了描述类似 Facebook 或者 Twitter 这样的社交应用所需的数据格式，例如评论，ID ，登录，好友管理等等。
-  -  WebID [2] 身份提供者：WebID-TLS [3]
-    - WebID 的愿景也是让用户持有自己的身份 https://www.w3.org/2005/Incubator/webid/spec/tls/
-    - WebID-TLS 是带公钥的，跟 DID 是比较像的
-    - 不理解：WebID-TLS is done without referring to Certificate Authority hierarchies, and instead encourages host server-signed (or self-signed) certificates.
-      - In Solid, certificate creation is typically done in the browser using the HTML5 keygen element, to provide a one-step creation and certificate publication user experience.
-      - 证书是应用自己生成的。
-        - These certificates can be created by any Web Site for their users
-        - https://www.w3.org/2005/Incubator/webid/spec/tls/
-        - Web Of Trust 的思路
-        - 不需要依赖 CA without needing to rely on this being signed by a well known Certificate Authority
-
-- POD 中的数据格式是 Linked Data
-  - Linked Data 是更早的 Berners-Lee 提出的语义网的思想
-  - 数据按照互联网公开标准存放，这和 Web3.0 是一致的。
-  - 我的 POD 中存放这我的一章照片
-  - 而你评论了我的照片，于是这个评论存放在了你的 POD 中
-  - 这二者之间会按照 Linked Data 的方式进行链接
-  - 从 Solid 官方文档[4]上可以找到一个非常容易看懂的例子。
-    - 问题：如何验证评论的发布时间和是否伪造（防止水军）
+Solid 是 Social Linked Data 的缩写，只是一套标准，而不是一个具体应用。基于这套标准，任何人都可以构建自己的应用，所以 Solid 代表的也是一个开放的去中心化的系统。根据维基百科上的介绍， Solid 有两个目标：第一，让用户真正拥有自己的数据；第二，更好的保护用户隐私。
 
 
-- 个人持有数据和去信任是一个硬币的两面。
-  - 公司持有数据的时代，公司可以提供信任
-    - 我在知乎上发布一篇文章，知乎记录了我的 ID 和发布时间，所以可以证明这篇文章的确是我的
-    - 支付宝我给你转一块钱，支付宝数据库会记录这次转账
-  - 个人一旦持有数据了
-    - 如何证明我是我？ID 系统
-    - 如何证明我的数据属于我？
-      - 如何证明发布时间和发布人
-      - 如何证明我自己没有篡改过我的数据
-    - 如何安全的存储我的数据？
+通过对 Soild 的简单介绍，可以看到 Solid 和 Web3.0 ，技术路线上也都采用了去中心化，愿景完全相同，都是为了让用户真正持有自己的数据。但是技术细节上差异非常大，我们来分析一下带来的后果。
 
-- 优势
-  - 满足 Web3.0 的第一个特征：数据归个人持有
-  - 基于互联网协议和标准
-  - Solid 要做的核心的一件事就是让数据归用户控制
-    - 解除 App 和数据的耦合
-    - freedom to exit
-  - 拥有数据
-    - Pod 是一个可编程的网盘，数据都在里面
-    - A 应用可以用这个 Pod 里面的数据，B 应用也可以
-  - 控制数据
-    - 我自己决定，哪些服务提供商可以读取我的数据
+## 数据存储方式
 
-    - Solid 是互联网的数据层和身份层
-      - 应用开发者不需要自己的数据库了
+先来对比一下 Solid 和 Web3.0 保存用户数据方式的异同。
 
-- Solid 的核心分为三点：Social Linked Data
+基本思路是一致的，数据都由用户自己存储。Solid 有一个 POD （ personal online data stores ）的概念，我的数据，就存储在我的 POD 中，POD 是一个随时可以访问的数据存储区域，里面的数据要随时允许被授权的应用去调用。Web3.0 思路下，用户的数据是加密后保存到自己的机器或者是云服务上的，默认是不能被应用访问的。用户自己存储数据，意味着 Solid 也遵照”数据和应用分离“的思路，跟 Web3.0 是一致的。
 
+数据存储方式上，Solid 和 Web3.0 区别就比较大了。每个 POD 中的数据，是按照语义网的思路，以 Linked Data 规范来存储。例如，我的 POD 里面有一个图片，你发布了一个对我图片的评论，那么评论和图片之间就会形成连接关系，会按照 Linked Data 特定的规范去注明。例如[4]：
 
-## 弱点1：ID 基于信任
-- ID 还是基于信任
-  - WebID
-  - 一旦 WebID 的提供者下线，那么所有的 POD 中的数据都没有了主人
+```
+<https://mypod.solid/comments/36756>
+    <http://www.w3.org/ns/oa#hasTarget>
+        <https://yourpod.solid/photos/beach>.
+```
 
-- 与商业利益冲突
-  - 为何要开放我的数据？
+加上 Solid 是专门构建社交应用的一套规范，可以明显感觉到 Solid 数据存储数据格式，通用性不是很好。而 Web3.0 对于数据存储格式没有明确要求，不同行业的数据会按照行业中最流行的协议的标准去存放。例如，社交类的数据会按照一套社交应用协议标准去存放，但是非社交类数据也会有自己的标准格式。对于数据的关系，Web3.0 不仅仅要求注明，而且也要求能证明，或者说能验证，这个在下一部分我们聊信任的时候会深入展开。
 
-  - 使用 Solid 登录
-    - 唯一的身份
-    - 登录任意 Solid 应用
+可见，Web3.0 的数据存储格式更灵活一些。
 
-- Solid 用户 ID
-  - 应该是使用第三方 https://github.com/inrupt/solid-react-sdk#user-authentication
-  - 有两种方式实现 ID
-    - 一种是 password 方式
-      - 这种要基于对 Solid 项目服务器的信任
-        - https://github.com/solid/webid-oidc-spec#brief-workflow-summary
-    - 另一种是 WebID-TLS 
-      - 基于 CA 证书
+## 信任结构
 
-Your public Solid POD URL will be: https://happypeter.inrupt.net
+Solid 是为社交场景设计的协议，是不能支撑起数字经济的。因为 Solid 不像 Web3.0 这样，有区块链提供的信任基石。
 
-Your public Solid WebID will be: https://happypeter.inrupt.net/profile/card#me
+Soild 的思路更倾向于鼓励数据的共享，而 Web3.0 更倾向去数据的确权。Web3.0 是可信互联网，可信的意思是一切都是可以用数学方法验证的。Web2.0 时代，基于平台的应用其实是强大的，因为平台可以提供信任。举个例子来看着意味着什么？你有一张图片发布到了 Twitter 上，我五年前发表了一条评论在下面。那么到了今天，不仅仅是图片和评论的关系大家都可以看到，而且最重要的是如果我说这个评论是我发出的，这个说法是有足够的公信力的。而用 Solid 的思路点对点的存储数据，没有人能确信我是否篡改过数据。你可能会认为，没关系，在图片持有人那里只要保存了这个评论的哈希即可。但是实际上，如果图片持有人想要否认我发过这条评论，他可以自己动手去篡改哈希。所以不管如何，只有两方存在，任何一方说话都说没有公信力的。而平台则扮演了可信的第三方。Web3.0 去掉了平台，融入了区块链，也可以承担起信任之根的角色。Web3.0 的愿景里，也可以有一家公司叫 Twitter ，Twitter 有自己的公钥，是注册在区块链上的，Twitter 会用私钥去签署图片和评论，包括评论的发布时间，这样，五年后我依然可以像大家证明，我发过这条评论。而且这时候的安全性比 Web2.0 更高，即使 Twitter 倒闭，因为区块链上永久记录了 Twitter 的公钥，大家依然可以验证曾经有一家叫 Twitter 的公司签署过评论。可见，Web3.0 的基于区块链的信任，能够让数据的所有权更清晰。用户持有数据，不仅仅代表用户可以完整的保存自己的数据，更应该表示用户可以不依赖于任何人去证明数据的各种属性。因为一旦数据失去了必要的属性，就可能变得毫无价值了。
 
+从 ID 系统的构筑，也可以看到 Solid 因为没有区块链而导致的技术缺陷。Solid 的 ID 系统也是去中心化的，是 WebID [2]。WebID 目的也是让用户持有自己的身份，这一点跟 Web3.0 的 DID 很像，同时，WebID 也是包含公钥的。WebID 的信任是基于 Web Of Trust 思想的。用户的 WebID 是自己创建的，存储在自己的服务器上，这就跟我们自己制作一张身份证一样，没有信任基础，他人是不会接受的。身份证是基于对中心化组织的信任。数字世界中，有 CA ，也就是发证机构的概念，就是数字世界中提供信任的中心化组织。但是 Web ID 是另外一套机制，也就是最早有 PGP 项目提出的 Web Of Trust 的思路。网络中了解我的人，会直接签署我的 WebID ，表示对我有直接信任，这样我跟我的一些朋友之间又直接的信任链接，我和朋友的朋友之间是间接的信任链接，这样我们直接就能连成一张”信任之网“，这就是 Web Of Trust ，而这个网上的每个节点，也就是每一个 WebID ，就建立起了去中心化的信任基础。但是 Web Of Trust 这个思路本身是有明显问题的，这就是为何 PGP 虽然提出了 Web Of Trust 思路，但是实际中基本还是采用了基于 CA 的中心化的信任。首先，WebID 的信任是需要人为构建的，如果一个新人进入网络，又没有熟人引荐他，那么他的信任该如何构建呢？所以 Web Of Trust 建立的过程是不能自动化的，这个对于构建数字经济是个很大的绊脚石。具体到 WebID ，还有一些明显的技术上的短板，例如一个 WebID 从技术上说就是一个网络资源，例如 https://bblfish.net/#hjs 就是一个 WebID 。可见 WebID 明显依赖于 DNS 和 HTTP 协议。DNS 本身是中心化的系统，Web3.0 会对它进行改革。HTTP 自身是比较适应云计算中心化服务器架构的协议，未来有可能被 IPFS 这样的去中心化协议取代。作为互联网基石的 ID 系统自身基于这些不稳固的基石来构建，显然是不合理的。
 
-- Solid 和 Web3.0 
-  - Web3.0 不仅仅要保证数据持有在用户手里，更要保证确权
-    - 如何证明一个评论是我发的，发在哪里，什么时间发布的？
-    - 一篇公开博客如何证明是我发表的
-  - Solid 似乎更强调开放共享，对确权很不清晰
-    - 不能确权就不能防止伪造和滥用
+总之可以看到，Solid 拿掉了中心提供的信任，但是没有补上区块链提供的信任，带来了很多难以克服的困难。
+
+## 结论
+
+总结起来，Solid 项目的不足恰恰是因为没有强大的信任之根。信任来自可验证，虽然密码学能够提供一定的可验证性，但是一个真正的点对点的系统中，没有第三方，是无法提供最终的信任的。有人说，区块链是一个新的中心和第三方，这个说法不是没有道理。Solid 的目标是实现用户持有数据，但是实际上因为没有信任的支撑，用户只是形式上持有数据，因为个人真正持有数据，不仅仅是形式上的自己存储数据，而是要有能力证明数据的各种属性以及和其他数据的关系，例如一条评论，到底发在了哪里，发布时间是什么，这样才能保证数据的价值，有价值的东西才有确权的必要，Web3.0 可以把数据产权给个人，这个是离不开区块链这个信任之根的。另外，依然是因为 Solid 没有区块链，所以 ID 系统必须采用 Web Of Trust 的思路，通过这个方式提供的信任，是不能自动化的而且安全性也很难评估。
 
 参考：
 
@@ -118,3 +57,4 @@ Your public Solid WebID will be: https://happypeter.inrupt.net/profile/card#me
 - [2] https://www.w3.org/2005/Incubator/webid/spec/identity/
 - [3] https://www.w3.org/2005/Incubator/webid/spec/tls/
 - [4] https://solid.inrupt.com/docs/intro-to-linked-data
+- [5] https://www.w3.org/2005/Incubator/webid/spec/identity/

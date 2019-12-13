@@ -185,7 +185,12 @@ DApp 的用户体验优势
     - 比特币模式的众筹
       - https://happypeter.github.io/binfo/bitcoin-funding
     - 商业模型之谈一个字：钱
-      - 标准化组织，如何拿到钱
+      - 标准化组织，如何拿到钱，也就是协议开发者如何拿到钱
+      - 另外一个就是基于协议开发的应用，如何赚钱？Gmail 采用给用户无限存储空间，获取广告机会
+        - https://knightcolumbia.org/content/protocols-not-platforms-a-technological-approach-to-free-speech 的 Business Models 部分
+        - - https://avc.com/2016/07/the-golden-age-of-open-protocols/
+
+
   - 区块链永动机机制设计
     - 经济模型闭环
     - Blockstack 的经济模型
@@ -349,6 +354,7 @@ Linux 的网络模块和 Chrome 浏览器是规则的载体。
 
 - Web3 项目案例
   - https://safenetwork.tech/
+  - https://forum.holochain.org/
 - 写作心法
   - 最近发现经常完不成每天3000字的任务
   - 基本上是因为话题太大，拿不下来
