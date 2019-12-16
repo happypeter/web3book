@@ -16,6 +16,7 @@
   * [2.4 数据产权](02-web3/own-data.md)
   * [2.5 Web 之父的 Web3.0 架构的弱点](02-web3/lee.md)
   * [2.6 要协议不要平台](02-web3/p-n-p.md)
+  * [2.7 垄断形成的根源](02-web3/monoply.md)
 
 * 第三章 Web3.0 架构组件
   * [3.1 概要](03-comp/intro.md)
