@@ -22,6 +22,7 @@
 * 第三章 Web3.0 架构组件
   * [3.1 概要](03-comp/intro.md)
   * [3.2 把一个 Web2.0 应用升级到 Web3.0](03-comp/upgrade.md)
+  * [3.3 区块链](03-comp/chain.md)
 
 * 第四章 去中心化身份
 
