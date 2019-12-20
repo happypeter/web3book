@@ -30,6 +30,7 @@
     - 发证机构 CA 
     - 去中心化 PKI 的实现原理
       - https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/final-documents/dpki.pdf
+      - DID 也是一种 PKI https://w3c-ccg.github.io/did-primer/#introduction-0
 
 第四章 区块链带来了什么？
   - 公信数据
@@ -75,6 +76,7 @@
     - 认证策略
   - VC 可验证声明
     - https://www.windley.com/archives/2016/10/how_sovrin_works.shtml
+    - https://github.com/WebOfTrustInfo/rwot7-toronto/blob/master/topics-and-advance-readings/verifiable-credentials-primer.md
   - DID 案例
     - 微软的 Ownyouridentity 项目
     - 比原链的去中心化身份架构
@@ -148,17 +150,18 @@
     Blockstack 的命名系统
 第八章 Web3.0 之上的 App 架构
   DApp 是什么？
+  - https://matrix.org/
   无平台方的平台
   用户自持数据
   DApp 架构原则
   胖协议
   用户为中心的设计
-  从 App 到 DApp 
-  无大型数据库
-  无服务器
-  从服务器端代码到智能合约
-  去中心化登录认证系统
-  可编程代币资产
+  - 从 App 到 DApp 
+    无大型数据库
+    无服务器
+    从服务器端代码到智能合约
+    去中心化登录认证系统
+    可编程代币资产
   - DApp 的分层结构
     - 区块链层
       - 很多 DApp 都会自己就是一个钱包，能够签署交易
@@ -172,6 +175,7 @@
     - 可以拆出去一章《不基于信任的数据确权》
       - 确权跟 DID 也是紧密相关的，例如 https://w3c-ccg.github.io/did-primer/ 的 "Selective disclosure." 这部分
       - https://opentimestamps.org/
+
   - 存储
     - 以 Gaia 为模板讲
       - 不用去中心化的存储，但是要方便用户自己持有数据
@@ -186,7 +190,9 @@
       - 本身注册 DID 就是要写入区块链的，就是要花钱的
       - 也会对 DID 在整个网络上的行为做分析，如果这个 DID 是新创建的，没有任何信誉屏障，那么降低这个 DID 发布的信息的关注度
         - 任何信誉，都是要有某个第三方给签名的，所以获得是有真正成本的
-
+   - 加密法院
+     - 每个数字世界法人都会充入“信誉准备金”来提高自己的可信度
+     - 如果有人提交了此人违约的密码学证据，就可以罚没准备金
 
 第九章 Web3.0 时代的商业模型
   - 去中心化经济激励
@@ -196,7 +202,7 @@
       - 标准化组织，如何拿到钱，也就是协议开发者如何拿到钱
       - 另外一个就是基于协议开发的应用，如何赚钱？Gmail 采用给用户无限存储空间，获取广告机会
         - https://knightcolumbia.org/content/protocols-not-platforms-a-technological-approach-to-free-speech 的 Business Models 部分
-        - - https://avc.com/2016/07/the-golden-age-of-open-protocols/
+        - https://avc.com/2016/07/the-golden-age-of-open-protocols/
 
 
   - 区块链永动机机制设计
