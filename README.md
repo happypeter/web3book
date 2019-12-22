@@ -59,25 +59,7 @@
 第五章 去中心化身份
   - DID 的技术细节
   - DID 的隐私保护思路
-  - Web2.0 的全局 ID 层
-    - 邵衡头条：119 流量造假
-      - 女巫攻击是一个根本性问题，是非常值得仔细写的
-    - openID 和 OAuth
-    - Facebook Connect
-    - 微信登录
-  - 何为用户 ID ？
-    - https://didproject.azurewebsites.net/docs/overview.html
-    - 虚拟的我
-    - 目前割裂在各个巨头 App 中
-    - 完全自持有
-  - W3C 的 DID 标准
-    - 数据结构
-    - 去中心化标识符
-    - 绑定公钥
-    - 认证策略
   - VC 可验证声明
-    - https://www.windley.com/archives/2016/10/how_sovrin_works.shtml
-    - https://github.com/WebOfTrustInfo/rwot7-toronto/blob/master/topics-and-advance-readings/verifiable-credentials-primer.md
   - DID 案例
     - 微软的 Ownyouridentity 项目
     - 比原链的去中心化身份架构
@@ -89,6 +71,11 @@
     - 生物信息识别的局限
     - 密码的局限
     - 算力消耗是唯一的安全屏障
+  - 邵衡头条：119 流量造假
+    - 女巫攻击是一个根本性问题，是非常值得仔细写的
+  - 如何颁发一个学历证书给一个 DID ？
+    - 首先要通过考试
+    - 只可能通过第三方来完成，很多第三方权威机构的”公钥“会非常的著名。
   - 如何证明我评论过你的商品？
     - 给一条评论确权
       - 最简单的方式是数据全部上链，但是没有可操作性
@@ -186,7 +173,7 @@
         - 其他的跟 Web3.0 的主题也没有太直接的关系
   - 去中心化的电商防刷单
     - 真正绝对避免是不可能的
-    - 但是情况不会币中心化监控条件下糟糕
+    - 但是情况不会比中心化监控条件下糟糕
     - 因为可以通过追加成本，来增加刷单的难度
       - 本身注册 DID 就是要写入区块链的，就是要花钱的
       - 也会对 DID 在整个网络上的行为做分析，如果这个 DID 是新创建的，没有任何信誉屏障，那么降低这个 DID 发布的信息的关注度
