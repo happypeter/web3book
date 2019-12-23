@@ -46,8 +46,7 @@
   - OLD internet: Blind Trust, no ownership.
   - New Internet: fix above.
 
-
-
+Web3.0 要解决的一个核心问题：让大公司不能邪恶。
 
 为何下一代 Web 一定是去中心化的，区块链作为事实层和激励层如何解决 Web 的中心化问题？从 App 到 DApp ，软件开发又会迎来怎样的范式转换呢？本书中揭晓。
 
