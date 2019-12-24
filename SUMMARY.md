@@ -45,7 +45,9 @@
   * [9.1 概述](09-model/intro.md)
 
 * 第十章 Web3.0 实战 -- Blockstack
- * [1.1 创建 Blockstack ID]()
+ * [Blockstack 概述](10-blsk/bs-intro.md)
+ * [Blockstack 的三大核心组件](10-blsk/three.md)
+ * [创建 Blockstack ID]()
 * 第十一章 结语
   * [11.1 个体的崛起](11-end/individual.md)
 
