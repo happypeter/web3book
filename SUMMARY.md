@@ -31,6 +31,8 @@
   * [4.3 DID 的隐私保护思路](04-did/privacy.md)
   * [4.4 可验证证书](04-did/vc.md)
   * [4.5 Chain Of Trust](04-did/cot.md)
+  * [微软的去中心化身份系统](04-did/micro.md)
+  * [微软的去中心化身份系统的工作细节](04-did/get.md)
 
 * 第五章 去中心化支付
 
