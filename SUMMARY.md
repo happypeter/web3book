@@ -26,7 +26,7 @@
   * [3.4 去中心化身份 DID](03-comp/did.md)
 
 * 第四章 去中心化身份
-  * [4.1 概要]()
+  * [4.1 概要](04-did/intro.md)
   * [4.2 DID 的技术细节](04-did/details.md)
   * [4.3 DID 的隐私保护思路](04-did/privacy.md)
   * [4.4 可验证证书](04-did/vc.md)
