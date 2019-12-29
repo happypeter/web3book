@@ -2,6 +2,7 @@
 
 * [wiki](README.md)
 * [前言](intro.md)
+
 * 第一章 技术的去中心化趋势
   * [1.1 概要](01-tech/intro.md)
   * [1.2 硬件的去中心化](01-tech/hardware.md)
@@ -28,6 +29,7 @@
 * 第四章 区块链--Web3.0 之根
   * [4.1 概要](04-blockchain/intro.md)
   * [区块链背后的密码学](04-blockchain/crypto.md)
+  * [区块链运行原理](04-blockchain/chain.md)
   * [区块链为 Web3.0 带来了什么？](04-blockchain/gift.md)
 
 * 第四章 去中心化身份
