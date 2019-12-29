@@ -25,14 +25,19 @@
   * [3.3 区块链](03-comp/chain.md)
   * [3.4 去中心化身份 DID](03-comp/did.md)
 
+* 第四章 区块链--Web3.0 之根
+  * [4.1 概要](04-blockchain/intro.md)
+  * [区块链背后的密码学](04-blockchain/crypto.md)
+  * [区块链为 Web3.0 带来了什么？](04-blockchain/gift.md)
+
 * 第四章 去中心化身份
-  * [4.1 概要](04-did/intro.md)
-  * [4.2 DID 的技术细节](04-did/details.md)
-  * [4.3 DID 的隐私保护思路](04-did/privacy.md)
-  * [4.4 可验证证书](04-did/vc.md)
-  * [4.5 Chain Of Trust](04-did/cot.md)
-  * [微软的去中心化身份系统](04-did/micro.md)
-  * [微软的去中心化身份系统的工作细节](04-did/get.md)
+  * [4.1 概要](05-did/intro.md)
+  * [4.2 DID 的技术细节](05-did/details.md)
+  * [4.3 DID 的隐私保护思路](05-did/privacy.md)
+  * [4.4 可验证证书](05-did/vc.md)
+  * [4.5 Chain Of Trust](05-did/cot.md)
+  * [微软的去中心化身份系统](05-did/micro.md)
+  * [微软的去中心化身份系统的工作细节](05-did/get.md)
 
 * 第五章 去中心化支付
 
@@ -50,6 +55,8 @@
  * [Blockstack 概述](10-blsk/bs-intro.md)
  * [Blockstack 的三大核心组件](10-blsk/three.md)
  * [创建 Blockstack ID]()
+ * [Gaia 数据存储系统](10-blsk/gaia.md)
+
 * 第十一章 结语
   * [11.1 个体的崛起](11-end/individual.md)
 
