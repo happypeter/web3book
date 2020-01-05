@@ -175,6 +175,11 @@
         - https://knightcolumbia.org/content/protocols-not-platforms-a-technological-approach-to-free-speech 的 Business Models 部分
         - https://avc.com/2016/07/the-golden-age-of-open-protocols/
 
+  - 去中心化的难点
+    - 苹果不会允许用户安装任何应用的
+    - 真正的去中心化，要求手机的软硬件都是开放自由的
+    - 但是 Ubuntu 尝试的失败证明，去中心化条件下做用户体验，是非常难的
+    - 但是未来一定是去中心化的世界
 
   - 区块链永动机机制设计
     - 经济模型闭环

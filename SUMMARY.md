@@ -8,13 +8,14 @@
   * [1.2 硬件的去中心化](01-tech/hardware.md)
   * [1.3 软件的去中心化](01-tech/opensource.md)
   * [1.4 数字世界独立化](01-tech/decouple.md)
+  * [用户渴望支持数据的几个场景](01-tech/cases.md)
   * [1.5 小结]()
 
 * 第二章 为何 Web3.0 是去中心化的？
   * [2.1 概要](02-web3/intro.md)
   * [2.2 Web 架构的迭代](02-web3/history.md)
   * [2.3 智能合约全球愿景](02-web3/smart-c.md)
-  * [2.4 数据产权](02-web3/own-data.md)
+  * [2.4 数据确权](02-web3/own-data.md)
   * [2.5 Web 之父的 Web3.0 架构的弱点](02-web3/lee.md)
   * [2.6 要协议不要平台](02-web3/p-n-p.md)
   * [2.7 垄断形成的根源](02-web3/monoply.md)
@@ -25,6 +26,7 @@
   * [3.2 把一个 Web2.0 应用升级到 Web3.0](03-comp/upgrade.md)
   * [3.3 区块链](03-comp/chain.md)
   * [3.4 去中心化身份 DID](03-comp/did.md)
+  * [一个目标，两项技术](03-comp/123.md)
 
 * 第四章 区块链--Web3.0 之根
   * [4.1 概要](04-blockchain/intro.md)
@@ -52,12 +54,15 @@
 
 * 第九章 Web3.0 时代的商业模型
   * [9.1 概述](09-model/intro.md)
+  * [9.2 比特币的商业模式](09-model/co.md)
+  * [9.3 开源软件的商业闭环](09-model/linux.md)
 
 * 第十章 Web3.0 实战 -- Blockstack
  * [Blockstack 概述](10-blsk/bs-intro.md)
  * [Blockstack 的三大核心组件](10-blsk/three.md)
  * [创建 Blockstack ID]()
  * [Gaia 数据存储系统](10-blsk/gaia.md)
+ * [Blockstack 开发资源汇总](10-blsk/refs.md)
 
 * 第十一章 结语
   * [11.1 个体的崛起](11-end/individual.md)
