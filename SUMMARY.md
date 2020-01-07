@@ -9,6 +9,7 @@
   * [1.3 软件的去中心化](01-tech/opensource.md)
   * [1.4 数字世界独立化](01-tech/decouple.md)
   * [用户渴望支持数据的几个场景](01-tech/cases.md)
+  * [暗网](01-tech/dark.md)
   * [1.5 小结]()
 
 * 第二章 为何 Web3.0 是去中心化的？
@@ -17,6 +18,7 @@
   * [2.3 智能合约全球愿景](02-web3/smart-c.md)
   * [2.4 数据确权](02-web3/own-data.md)
   * [2.5 Web 之父的 Web3.0 架构的弱点](02-web3/lee.md)
+  * [平台的作用](02-web3/platform.md)
   * [2.6 要协议不要平台](02-web3/p-n-p.md)
   * [2.7 垄断形成的根源](02-web3/monoply.md)
   * [2.8 如何理解隐私？](02-web3/crypto.md)
