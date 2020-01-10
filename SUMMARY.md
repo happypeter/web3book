@@ -16,6 +16,7 @@
   * [2.1 概要](02-web3/intro.md)
   * [2.2 Web 架构的迭代](02-web3/history.md)
   * [2.3 智能合约全球愿景](02-web3/smart-c.md)
+  * [数据要属于谁？](02-web3/who.md)
   * [2.4 数据确权](02-web3/own-data.md)
   * [2.5 Web 之父的 Web3.0 架构的弱点](02-web3/lee.md)
   * [平台的作用](02-web3/platform.md)
@@ -44,6 +45,8 @@
   * [4.5 Chain Of Trust](05-did/cot.md)
   * [微软的去中心化身份系统](05-did/micro.md)
   * [微软的去中心化身份系统的工作细节](05-did/get.md)
+  * [DID 非要通过区块链实现吗？](05-did/why-chain.md)
+  * [什么情况下可以修改 DID ？](05-did/modify.md)
 
 * 第五章 去中心化支付
 
