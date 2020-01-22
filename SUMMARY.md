@@ -23,6 +23,8 @@
   * [2.6 要协议不要平台](02-web3/p-n-p.md)
   * [2.7 垄断形成的根源](02-web3/monoply.md)
   * [2.8 如何理解隐私？](02-web3/crypto.md)
+  * [云计算的去中心化](02-web3/cloud.md)
+  * [可信第三方的去中心化](02-web3/ttp.md)
 
 * 第三章 Web3.0 架构组件
   * [3.1 概要](03-comp/intro.md)
@@ -35,7 +37,12 @@
   * [4.1 概要](04-blockchain/intro.md)
   * [区块链背后的密码学](04-blockchain/crypto.md)
   * [区块链运行原理](04-blockchain/chain.md)
+  * [互联网自己的数据库](04-blockchain/base.md)
+  * [区块链和社会自动化](04-blockchain/auto.md)
+  * [公信数据](04-blockchain/trusted-data.md)
   * [区块链为 Web3.0 带来了什么？](04-blockchain/gift.md)
+  * [女巫攻击和投票造假](04-blockchain/sybil.md)
+  
 
 * 第四章 去中心化身份
   * [4.1 概要](05-did/intro.md)
@@ -47,6 +54,8 @@
   * [微软的去中心化身份系统的工作细节](05-did/get.md)
   * [DID 非要通过区块链实现吗？](05-did/why-chain.md)
   * [什么情况下可以修改 DID ？](05-did/modify.md)
+  * [身份自主化](05-did/self-id.md)
+  * [身份认证过程](05-did/auth.md)
 
 * 第五章 去中心化支付
 
@@ -67,6 +76,7 @@
  * [Blockstack 的三大核心组件](10-blsk/three.md)
  * [创建 Blockstack ID]()
  * [Gaia 数据存储系统](10-blsk/gaia.md)
+ * [去中心化的淘宝](10-blsk/bazzar.md)
  * [Blockstack 开发资源汇总](10-blsk/refs.md)
 
 * 第十一章 结语
