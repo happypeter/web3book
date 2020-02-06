@@ -18,7 +18,7 @@
   * [2.3 智能合约全球愿景](02-web3/smart-c.md)
   * [数据要属于谁？](02-web3/who.md)
   * [2.4 数据确权](02-web3/own-data.md)
-  * [2.5 Web 之父的 Web3.0 架构的弱点](02-web3/lee.md)
+  * [2.5 Web 之父的 Web3.0 架构](02-web3/lee.md)
   * [平台的作用](02-web3/platform.md)
   * [2.6 要协议不要平台](02-web3/p-n-p.md)
   * [2.7 垄断形成的根源](02-web3/monoply.md)
@@ -55,7 +55,7 @@
   * [DID 非要通过区块链实现吗？](05-did/why-chain.md)
   * [什么情况下可以修改 DID ？](05-did/modify.md)
   * [身份自主化](05-did/self-id.md)
-  * [身份认证过程](05-did/auth.md)
+  * [身份认证是怎样一个过程？](05-did/auth.md)
 
 * 第五章 去中心化支付
 
@@ -70,6 +70,8 @@
   * [9.1 概述](09-model/intro.md)
   * [9.2 比特币的商业模式](09-model/co.md)
   * [9.3 开源软件的商业闭环](09-model/linux.md)
+  * [得标准者得天下](09-model/std.md)
+  * [零知识证明](09-model/zk.md)
 
 * 第十章 Web3.0 实战 -- Blockstack
  * [Blockstack 概述](10-blsk/bs-intro.md)
@@ -81,7 +83,3 @@
 
 * 第十一章 结语
   * [11.1 个体的崛起](11-end/individual.md)
-
-
-* tmp
-  * [Solid](solid.md)
