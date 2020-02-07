@@ -65,13 +65,18 @@
   * [7.1 概述](07-pki/intro.md)
 
 * 第八章 Web3.0 之上的 App 架构
+  * [什么是协议？](08-app/protocol.md)
 
 * 第九章 Web3.0 时代的商业模型
   * [9.1 概述](09-model/intro.md)
   * [9.2 比特币的商业模式](09-model/co.md)
   * [9.3 开源软件的商业闭环](09-model/linux.md)
-  * [得标准者得天下](09-model/std.md)
+
+  * [标准的胜利](09-model/std.md)
+  * [网络效应](09-model/network-effect.md)
+  * [理解垄断](09-model/monoply.md)
   * [零知识证明](09-model/zk.md)
+  * [如何卖出自己的数据](09-model/sell.md)
 
 * 第十章 Web3.0 实战 -- Blockstack
  * [Blockstack 概述](10-blsk/bs-intro.md)
