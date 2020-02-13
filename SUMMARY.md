@@ -65,6 +65,8 @@
   * [7.1 概述](07-pki/intro.md)
 
 * 第八章 Web3.0 之上的 App 架构
+  * [以太坊世界观下的 DApp 是什么？](08-app/e-dapp.md)
+  * [Web3.0 下广义的 DApp 定义](08-app/my-dapp.md)
   * [什么是协议？](08-app/protocol.md)
 
 * 第九章 Web3.0 时代的商业模型
