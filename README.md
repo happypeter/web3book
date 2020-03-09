@@ -111,6 +111,7 @@
     - USDT 和其他
 
 第七章 去中心化的 DNS 和 PKI
+
   - NOTE: DNS 和 PKI 在萨博的文章中都被叫做 TTP ，所以本章标题是否可以改为《区块链替代 TTP 》
     - https://nakamotoinstitute.org/trusted-third-parties/
     - 浏览器内置的大 CA 的公钥
@@ -143,6 +144,8 @@
   - DApp 架构原则
     胖协议
     用户为中心的设计
+    - 打通数据孤岛
+      - 淘宝，微信中的内容，google 是搜不到的
   - 从 App 到 DApp 
     无大型数据库
     无服务器

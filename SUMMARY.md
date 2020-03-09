@@ -52,6 +52,7 @@
   * [4.5 Chain Of Trust](05-did/cot.md)
   * [微软的去中心化身份系统](05-did/micro.md)
   * [微软的去中心化身份系统的工作细节](05-did/get.md)
+  * [微软的 ION 项目](05-did/ion.md)
   * [DID 非要通过区块链实现吗？](05-did/why-chain.md)
   * [什么情况下可以修改 DID ？](05-did/modify.md)
   * [身份自主化](05-did/self-id.md)
@@ -63,6 +64,10 @@
 
 * 第七章 去中心化的 DNS 和 PKI
   * [7.1 概述](07-pki/intro.md)
+  * [Https 原理](07-pki/https.md)
+  * [DNS 是如何工作的？](07-pki/dns.md)
+  * [Namecoin 去中心化 DNS 的一个尝试](07-pki/namecoin.md)
+  * [去中心化名字系统 Handshake](07-pki/handshake.md)
 
 * 第八章 Web3.0 之上的 App 架构
   * [以太坊世界观下的 DApp 是什么？](08-app/e-dapp.md)
