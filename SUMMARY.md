@@ -10,7 +10,6 @@
   * [1.4 数字世界独立化](01-tech/decouple.md)
   * [用户渴望支持数据的几个场景](01-tech/cases.md)
   * [暗网](01-tech/dark.md)
-  * [1.5 小结]()
 
 * 第二章 为何 Web3.0 是去中心化的？
   * [2.1 概要](02-web3/intro.md)
@@ -35,7 +34,6 @@
 
 * 第四章 区块链--Web3.0 之根
   * [4.1 概要](04-blockchain/intro.md)
-  * [区块链背后的密码学](04-blockchain/crypto.md)
   * [区块链运行原理](04-blockchain/chain.md)
   * [互联网自己的数据库](04-blockchain/base.md)
   * [区块链和社会自动化](04-blockchain/auto.md)
@@ -43,8 +41,7 @@
   * [区块链为 Web3.0 带来了什么？](04-blockchain/gift.md)
   * [女巫攻击和投票造假](04-blockchain/sybil.md)
   
-
-* 第四章 去中心化身份
+* 第五章 去中心化身份
   * [4.1 概要](05-did/intro.md)
   * [4.2 DID 的技术细节](05-did/details.md)
   * [4.3 DID 的隐私保护思路](05-did/privacy.md)
@@ -58,14 +55,16 @@
   * [身份自主化](05-did/self-id.md)
   * [身份认证是怎样一个过程？](05-did/auth.md)
 
-* 第五章 去中心化支付
-
-* 第六章 去中心化存储方案
+* 第六章 去中心化支付
+  * [比特币实现的一个实质性技术突破](06-pay/bitcoin.md)
+  * [支付的匿名化](06-pay/anon.md)
+  * [稳定币]()
 
 * 第七章 去中心化的 DNS 和 PKI
   * [7.1 概述](07-pki/intro.md)
   * [Https 原理](07-pki/https.md)
   * [DNS 是如何工作的？](07-pki/dns.md)
+  * [Web2.0 数字证书](x)
   * [Namecoin 去中心化 DNS 的一个尝试](07-pki/namecoin.md)
   * [去中心化名字系统 Handshake](07-pki/handshake.md)
 
