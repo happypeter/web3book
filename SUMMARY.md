@@ -1,6 +1,5 @@
 # Summary
 
-* [wiki](README.md)
 * [前言](intro.md)
 
 * 第一章 技术的去中心化趋势
@@ -57,11 +56,9 @@
 
 * 第六章 去中心化支付
   * [比特币实现的一个实质性技术突破](06-pay/bitcoin.md)
-  * [支付的匿名化](06-pay/anon.md)
-  * [稳定币]()
 
 * 第七章 去中心化的 DNS 和 PKI
-  * [7.1 概述](07-pki/intro.md)
+  * [7.1 概要](07-pki/intro.md)
   * [Https 原理](07-pki/https.md)
   * [DNS 是如何工作的？](07-pki/dns.md)
   * [Web2.0 数字证书](x)
@@ -77,14 +74,13 @@
   * [9.1 概述](09-model/intro.md)
   * [9.2 比特币的商业模式](09-model/co.md)
   * [9.3 开源软件的商业闭环](09-model/linux.md)
-
   * [标准的胜利](09-model/std.md)
   * [网络效应](09-model/network-effect.md)
   * [理解垄断](09-model/monoply.md)
   * [零知识证明](09-model/zk.md)
   * [如何卖出自己的数据](09-model/sell.md)
 
-* 第十章 Web3.0 实战 -- Blockstack
+* 第十章 Web3.0 实战
  * [Blockstack 概述](10-blsk/bs-intro.md)
  * [Blockstack 的三大核心组件](10-blsk/three.md)
  * [创建 Blockstack ID]()
@@ -93,4 +89,4 @@
  * [Blockstack 开发资源汇总](10-blsk/refs.md)
 
 * 第十一章 结语
-  * [11.1 个体的崛起](11-end/individual.md)
+  * [个体的崛起](11-end/individual.md)
