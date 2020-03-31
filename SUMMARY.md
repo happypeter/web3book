@@ -2,6 +2,12 @@
 
 * [前言](intro.md)
 
+* TODO
+  - 即时聊天工具的去中心化
+  - Email 系统的中心化瓶颈
+    - gmail
+    - PGP 的证书
+
 * 第一章 技术的去中心化趋势
   * [1.1 概要](01-tech/intro.md)
   * [1.2 硬件的去中心化](01-tech/hardware.md)
