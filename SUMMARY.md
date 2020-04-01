@@ -7,6 +7,10 @@
   - Email 系统的中心化瓶颈
     - gmail
     - PGP 的证书
+  - 各个公司的 Web3.0 尝试
+    - 华为的 Web3.0
+    - 微软的 Web3.0
+    - Blockstack 的 Web3.0
 
 * 第一章 技术的去中心化趋势
   * [1.1 概要](01-tech/intro.md)
