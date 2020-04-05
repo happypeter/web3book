@@ -42,7 +42,7 @@
 
 * 第三章 Web3.0 架构组件
   * [3.1 概要](03-comp/intro.md)
-  * [3.2 把一个 Web2.0 应用升级到 Web3.0](03-comp/upgrade.md)
+  * [3.2 信任模型](03-comp/upgrade.md)
   * [3.3 区块链](03-comp/chain.md)
   * [3.4 去中心化身份 DID](03-comp/did.md)
   * [一个目标，两项技术](03-comp/123.md)
@@ -99,7 +99,6 @@
 * 第十章 Web3.0 实战
  * [Blockstack 概述](10-blsk/bs-intro.md)
  * [Blockstack 的三大核心组件](10-blsk/three.md)
- * [创建 Blockstack ID]()
  * [TWITTER：要协议不要平台](02-web3/p-n-p.md)
  * [Gaia 数据存储系统](10-blsk/gaia.md)
  * [去中心化的淘宝](10-blsk/bazzar.md)
