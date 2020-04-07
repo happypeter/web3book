@@ -42,10 +42,10 @@
 
 * 第三章 Web3.0 架构组件
   * [3.1 概要](03-comp/intro.md)
+  * [一个目标，两项技术](03-comp/123.md)
   * [3.2 信任模型](03-comp/upgrade.md)
   * [3.3 区块链](03-comp/chain.md)
   * [3.4 去中心化身份 DID](03-comp/did.md)
-  * [一个目标，两项技术](03-comp/123.md)
 
 * 第四章 区块链--Web3.0 之根
   * [4.1 概要](04-blockchain/intro.md)
