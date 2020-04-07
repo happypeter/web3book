@@ -50,7 +50,6 @@
 * 第四章 区块链--Web3.0 之根
   * [4.1 概要](04-blockchain/intro.md)
   * [互联网自己的数据库](04-blockchain/base.md)
-  * [区块链和社会自动化](04-blockchain/auto.md)
   * [公信数据](04-blockchain/trusted-data.md)
   * [区块链为 Web3.0 带来了什么？](04-blockchain/gift.md)
   * [女巫攻击和投票造假](04-blockchain/sybil.md)
