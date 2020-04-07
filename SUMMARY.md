@@ -49,7 +49,6 @@
 
 * 第四章 区块链--Web3.0 之根
   * [4.1 概要](04-blockchain/intro.md)
-  * [区块链运行原理](04-blockchain/chain.md)
   * [互联网自己的数据库](04-blockchain/base.md)
   * [区块链和社会自动化](04-blockchain/auto.md)
   * [公信数据](04-blockchain/trusted-data.md)
