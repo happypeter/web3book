@@ -49,8 +49,8 @@
 
 * 第四章 区块链--Web3.0 之根
   * [4.1 概要](04-blockchain/intro.md)
-  * [互联网自己的数据库](04-blockchain/base.md)
-  * [女巫攻击和投票造假](04-blockchain/sybil.md)
+  * [Web3.0 的数据库](04-blockchain/base.md)
+  * [女巫攻击和 Web3.0 决策机制](04-blockchain/sybil.md)
   
 * 第五章 去中心化身份
   * [4.1 概要](05-did/intro.md)
