@@ -50,8 +50,6 @@
 * 第四章 区块链--Web3.0 之根
   * [4.1 概要](04-blockchain/intro.md)
   * [互联网自己的数据库](04-blockchain/base.md)
-  * [公信数据](04-blockchain/trusted-data.md)
-  * [区块链为 Web3.0 带来了什么？](04-blockchain/gift.md)
   * [女巫攻击和投票造假](04-blockchain/sybil.md)
   
 * 第五章 去中心化身份
@@ -76,11 +74,11 @@
   * [Https 原理](07-pki/https.md)
   * [DNS 是如何工作的？](07-pki/dns.md)
   * [Web2.0 数字证书](x)
-  * [Namecoin 去中心化 DNS 的一个尝试](07-pki/namecoin.md)
+  * [Namecoin 去中心化 DNS 尝试](07-pki/namecoin.md)
   * [去中心化名字系统 Handshake](07-pki/handshake.md)
 
 * 第八章 Web3.0 之上的 App 架构
-  * [以太坊世界观下的 DApp 是什么？](08-app/e-dapp.md)
+  * [以太坊世界观下的 DApp](08-app/e-dapp.md)
   * [Web3.0 下广义的 DApp 定义](08-app/my-dapp.md)
   * [什么是协议？](08-app/protocol.md)
 
