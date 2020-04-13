@@ -54,17 +54,14 @@
   
 * 第五章 去中心化身份
   * [4.1 概要](05-did/intro.md)
+  * [身份认证是怎样一个过程？](05-did/auth.md)
+  * [身份自主化](05-did/self-id.md)
   * [4.2 DID 的技术细节](05-did/details.md)
   * [4.3 DID 的隐私保护思路](05-did/privacy.md)
   * [4.4 可验证证书](05-did/vc.md)
   * [4.5 Chain Of Trust](05-did/cot.md)
-  * [微软的去中心化身份系统](05-did/micro.md)
-  * [微软的去中心化身份系统的工作细节](05-did/get.md)
-  * [微软的 ION 项目](05-did/ion.md)
   * [DID 非要通过区块链实现吗？](05-did/why-chain.md)
   * [什么情况下可以修改 DID ？](05-did/modify.md)
-  * [身份自主化](05-did/self-id.md)
-  * [身份认证是怎样一个过程？](05-did/auth.md)
 
 * 第六章 去中心化支付
   * [比特币实现的一个实质性技术突破](06-pay/bitcoin.md)
@@ -99,6 +96,9 @@
  * [Gaia 数据存储系统](10-blsk/gaia.md)
  * [去中心化的淘宝](10-blsk/bazzar.md)
  * [Blockstack 开发资源汇总](10-blsk/refs.md)
+ * [微软的去中心化身份系统](05-did/micro.md)
+ * [微软的去中心化身份系统的工作细节](05-did/get.md)
+ * [微软的 ION 项目](05-did/ion.md)
 
 * 第十一章 结语
   * [个体的崛起](11-end/individual.md)
