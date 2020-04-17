@@ -3,6 +3,7 @@
 * [前言](intro.md)
 
 * TODO
+  - https://www.forbes.com/sites/justinoconnell/2020/04/12/how-bitcoin-could-anchor-web-30/#19516bbd7725
   - 即时聊天工具的去中心化
   - Email 系统的中心化瓶颈
     - gmail
@@ -70,7 +71,8 @@
   * [7.1 概要](07-pki/intro.md)
   * [Https 原理](07-pki/https.md)
   * [DNS 是如何工作的？](07-pki/dns.md)
-  * [Web2.0 数字证书](x)
+  * [Web2.0 数字证书](07-pki/certificate.md)
+  * [Web Of Trust](05-did/wot.md)
   * [Namecoin 去中心化 DNS 尝试](07-pki/namecoin.md)
   * [去中心化名字系统 Handshake](07-pki/handshake.md)
 
