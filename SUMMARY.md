@@ -11,14 +11,12 @@
   - 各个公司的 Web3.0 尝试
     - 华为的 Web3.0
     - 微软的 Web3.0
-    - Blockstack 的 Web3.0
   - 从服务到治理
     - AI 开除员工
     - 健康二维码
     - 交通调度系统
   - DNS
     - https://unstoppabledomains.com/
-    - 区块链域名的一个作用，就是可以接受加密货币，直接可以当公钥用，因为绑定到了域名上，而且是公开可查的
 
 * 第一章 技术的去中心化趋势
   * [1.1 概要](01-tech/intro.md)
@@ -94,10 +92,10 @@
 * 第十章 Web3.0 实战
  * [Blockstack 概述](10-blsk/bs-intro.md)
  * [Blockstack 的三大核心组件](10-blsk/three.md)
+ * [Blockstack 开发资源汇总](10-blsk/refs.md)
  * [TWITTER：要协议不要平台](02-web3/p-n-p.md)
  * [Gaia 数据存储系统](10-blsk/gaia.md)
  * [去中心化的淘宝](10-blsk/bazzar.md)
- * [Blockstack 开发资源汇总](10-blsk/refs.md)
  * [微软的去中心化身份系统](05-did/micro.md)
  * [微软的去中心化身份系统的工作细节](05-did/get.md)
  * [微软的 ION 项目](05-did/ion.md)
