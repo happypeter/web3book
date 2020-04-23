@@ -11,12 +11,7 @@
   - 各个公司的 Web3.0 尝试
     - 华为的 Web3.0
     - 微软的 Web3.0
-  - 从服务到治理
-    - AI 开除员工
-    - 健康二维码
-    - 交通调度系统
-  - DNS
-    - https://unstoppabledomains.com/
+  - 端到端加密
 
 * 第一章 技术的去中心化趋势
   * [1.1 概要](01-tech/intro.md)
@@ -88,6 +83,7 @@
   * [理解垄断](09-model/monoply.md)
   * [零知识证明](09-model/zk.md)
   * [如何卖出自己的数据](09-model/sell.md)
+  * [GDPR 对产业的约束](09-model/gdpr.md)
 
 * 第十章 Web3.0 实战
  * [Blockstack 概述](10-blsk/bs-intro.md)
@@ -99,6 +95,7 @@
  * [微软的去中心化身份系统](05-did/micro.md)
  * [微软的去中心化身份系统的工作细节](05-did/get.md)
  * [微软的 ION 项目](05-did/ion.md)
+ * [Zoom 的困境](10-blsk/zoom.md)
 
 * 第十一章 结语
   * [个体的崛起](11-end/individual.md)
