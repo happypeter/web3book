@@ -2,17 +2,6 @@
 
 * [前言](intro.md)
 
-* TODO
-  - https://www.forbes.com/sites/justinoconnell/2020/04/12/how-bitcoin-could-anchor-web-30/#19516bbd7725
-  - 即时聊天工具的去中心化
-  - Email 系统的中心化瓶颈
-    - gmail
-    - PGP 的证书
-  - 各个公司的 Web3.0 尝试
-    - 华为的 Web3.0
-    - 微软的 Web3.0
-  - 端到端加密
-
 * 第一章 技术的去中心化趋势
   * [1.1 概要](01-tech/intro.md)
   * [1.2 硬件的去中心化](01-tech/hardware.md)
@@ -41,10 +30,12 @@
   * [3.3 区块链](03-comp/chain.md)
   * [3.4 去中心化身份 DID](03-comp/did.md)
 
-* 第四章 区块链--Web3.0 之根
+* 第四章 Web3.0 的基础设施
   * [4.1 概要](04-blockchain/intro.md)
   * [Web3.0 的数据库](04-blockchain/base.md)
   * [女巫攻击和 Web3.0 决策机制](04-blockchain/sybil.md)
+  * [比特币实现的一个实质性技术突破](04-blockchain/bitcoin.md)
+  * [比特币作为 Web3.0 的根基](04-blockchain/bitcoin-root.md)
   
 * 第五章 去中心化身份
   * [4.1 概要](05-did/intro.md)
@@ -56,9 +47,6 @@
   * [4.5 Chain Of Trust](05-did/cot.md)
   * [DID 非要通过区块链实现吗？](05-did/why-chain.md)
   * [什么情况下可以修改 DID ？](05-did/modify.md)
-
-* 第六章 去中心化支付
-  * [比特币实现的一个实质性技术突破](06-pay/bitcoin.md)
 
 * 第七章 去中心化的 DNS 和 PKI
   * [7.1 概要](07-pki/intro.md)
@@ -92,10 +80,12 @@
  * [TWITTER：要协议不要平台](02-web3/p-n-p.md)
  * [Gaia 数据存储系统](10-blsk/gaia.md)
  * [去中心化的淘宝](10-blsk/bazzar.md)
+ * [去中心化的微信](10-blsk/wechat.md)
  * [微软的去中心化身份系统](05-did/micro.md)
  * [微软的去中心化身份系统的工作细节](05-did/get.md)
  * [微软的 ION 项目](05-did/ion.md)
  * [Zoom 的困境](10-blsk/zoom.md)
+ * [华为的下一朵云](10-blsk/huawei.md)
 
 * 第十一章 结语
   * [个体的崛起](11-end/individual.md)
