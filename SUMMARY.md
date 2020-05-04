@@ -40,6 +40,7 @@
 * 第五章 去中心化身份
   * [4.1 概要](05-did/intro.md)
   * [身份认证是怎样一个过程？](05-did/auth.md)
+  * [身份系统的演化](05-did/evo.md)
   * [身份自主化](05-did/self-id.md)
   * [4.2 DID 的技术细节](05-did/details.md)
   * [4.3 DID 的隐私保护思路](05-did/privacy.md)
