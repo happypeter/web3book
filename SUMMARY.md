@@ -84,9 +84,7 @@
  * [去中心化的微信](10-blsk/wechat.md)
  * [微软的去中心化身份系统](05-did/micro.md)
  * [微软的去中心化身份系统的工作细节](05-did/get.md)
- * [微软的 ION 项目](05-did/ion.md)
  * [Zoom 的困境](10-blsk/zoom.md)
- * [华为的下一朵云](10-blsk/huawei.md)
 
 * 第十一章 结语
   * [个体的崛起](11-end/individual.md)
