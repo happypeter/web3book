@@ -24,17 +24,14 @@
 
 * 第三章 Web3.0 架构组件
   * [3.1 概要](03-comp/intro.md)
-  * [一个目标，两项技术](03-comp/123.md)
-  * [3.2 信任模型](03-comp/upgrade.md)
-  * [3.3 区块链](03-comp/chain.md)
-  * [3.4 去中心化身份 DID](03-comp/did.md)
-  * [什么密码学](03-comp/ctypto.md)
-  * [Web3.0 的数据库](04-blockchain/base.md)
-  * [女巫攻击和 Web3.0 决策机制](04-blockchain/sybil.md)
-  * [比特币实现的一个实质性技术突破](04-blockchain/bitcoin.md)
-  * [比特币作为 Web3.0 的根基](04-blockchain/bitcoin-root.md)
-  
-没有第四章了
+  * [3.2 一个目标，两项技术](03-comp/123.md)
+  * [3.3 密码学](03-comp/crypto.md)
+  * [3.4 比特币实现的一个实质性技术突破](04-blockchain/bitcoin.md)
+  * [3.5 区块链](03-comp/chain.md)
+  * [3.6 Web3.0 的数据库](04-blockchain/base.md)
+  * [3.7去中心化身份](03-comp/did.md)
+
+=== todo ===
 
 * 第五章 去中心化身份
   * [概要](05-did/intro.md)
@@ -60,8 +57,10 @@
 * 第八章 Web3.0 之上的 App 架构
   * [以太坊世界观下的 DApp](08-app/e-dapp.md)
   * [Web3.0 下广义的 DApp 定义](08-app/my-dapp.md)
+  * [3.2 信任模型](03-comp/upgrade.md)
   * [标准的胜利](09-model/std.md)
   * [什么是协议？](08-app/protocol.md)
+  * [女巫攻击和 Web3.0 决策机制](04-blockchain/sybil.md)
 
 * 第九章 Web3.0 时代的商业模型
   * [9.1 概述](09-model/intro.md)

@@ -1,1 +1,0 @@
-  - https://www.forbes.com/sites/justinoconnell/2020/04/12/how-bitcoin-could-anchor-web-30/#19516bbd7725
