@@ -1,18 +1,1 @@
-参考《图解密码学》以及 https://en.wikipedia.org/wiki/Public_key_infrastructure#Web_of_trust 
-
-CA 的证书可信，是因为政府的根证书，这应该是 Chain Of Trust 的中心思想。
-
-PKI 方面，以 Certcoin 为案例：https://courses.csail.mit.edu/6.857/2014/files/19-fromknecht-velicann-yakoubov-certcoin.pdf
-
-https://eprint.iacr.org/2014/803.pdf
-
-
-DNS 方面，以 namecoin 为主线讲吧
-
-
-- e Google Certificate Transparency project
-  - 对 CA 的去中心化监督
-
-- 我们访问 google ，CA 会告诉我们这个就是谷歌，
-  - https://www.youtube.com/watch?v=qtOIh93Hvuw
-  - 但是有一次土耳其就因为证书错误，误认为一个其他网站是谷歌
+互联网从技术架构上讲，有两个中心化瓶颈，一个是 DNS 域名服务系统，另外一个是 PKI ，也就是公钥基础设施。本章来介绍 DNS 和 PKI 的工作原理，并讨论一下如何用去中心化的方式来实现 DNS 和 PKI 。
