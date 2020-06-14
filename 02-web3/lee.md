@@ -1,5 +1,3 @@
-## 概述
-
 Web 之父 Tim Berners-Lee 目前的项目 Solid 体现了它对下一代互联网的理解。Solid 项目的口号[1]是 
 
 > Re-decentralizing the web 
