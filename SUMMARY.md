@@ -19,8 +19,8 @@
   * [2.7 平台](02-web3/platform.md)
   * [2.8 平台的为何崛起](02-web3/monoply.md)
   * [2.9 可信第三方的去中心化](02-web3/ttp.md)
-  * [3.0 如何理解隐私？](02-web3/crypto.md)
-  * [3.1 云计算的去中心化](02-web3/cloud.md)
+  * [2.10 如何理解隐私？](02-web3/crypto.md)
+  * [2.11 云计算的去中心化](02-web3/cloud.md)
 
 * 第三章 Web3.0 架构组件
   * [3.1 概要](03-comp/intro.md)
