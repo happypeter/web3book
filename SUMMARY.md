@@ -48,9 +48,8 @@
   * [5.2 DNS 是如何工作的？](07-pki/dns.md)
   * [5.3 Web2.0 的 PKI](07-pki/pki.md)
   * [5.4 Web2.0 数字证书](07-pki/certificate.md)
-  * [5.5 Https 原理](07-pki/https.md)
-  * [5.6 Namecoin 去中心化 DNS 尝试](07-pki/namecoin.md)
-  * [5.7 Web Of Trust](05-did/wot.md)
+  * [5.5 Namecoin 去中心化 DNS 尝试](07-pki/namecoin.md)
+  * [5.6 Web Of Trust](05-did/wot.md)
 
 * 第六章 Web3.0 之上的 App 架构
   * [6.1 以太坊世界观下的 DApp](08-app/e-dapp.md)
