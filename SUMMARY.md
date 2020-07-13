@@ -56,9 +56,8 @@
   * [6.2 以太坊世界观下的 DApp](08-app/e-dapp.md)
   * [6.3 本书的 DApp 定义](08-app/my-dapp.md)
   * [6.4 信任模型](03-comp/upgrade.md)
-  * [6.5 标准的胜利](09-model/std.md)
-  * [6.6 什么是协议？](08-app/protocol.md)
-  * [6.7 女巫攻击和 Web3.0 决策机制](04-blockchain/sybil.md)
+  * [6.5 什么是协议？](08-app/protocol.md)
+  * [6.6 女巫攻击和 Web3.0 决策机制](04-blockchain/sybil.md)
 
 * 第七章 Web3.0 时代的商业模型
   * [7.1 概述](09-model/intro.md)
