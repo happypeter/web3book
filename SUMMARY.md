@@ -66,7 +66,7 @@
   * [7.4 理解垄断](09-model/monoply.md)
   * [7.5 零知识证明](09-model/zk.md)
   * [7.6 GDPR 对产业的约束](09-model/gdpr.md)
-  * [7.7 如何卖出自己的数据](09-model/sell.md)
+  * [7.7 个人数据机器人](09-model/sell.md)
 
 * 第八章 Web3.0 实战
  * [8.1 概述](10-blsk/intro.md)
