@@ -67,6 +67,7 @@
   * [7.5 零知识证明](09-model/zk.md)
   * [7.6 GDPR 对产业的约束](09-model/gdpr.md)
   * [7.7 个人数据机器人](09-model/sell.md)
+  * [7.8 如果理解垄断公司的崛起](09-model/mono.md)
 
 * 第八章 Web3.0 实战
  * [8.1 概述](10-blsk/intro.md)
