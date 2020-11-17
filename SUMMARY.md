@@ -16,7 +16,7 @@
   * [2.4 数据要属于谁？](02-web3/who.md)
   * [2.5 数据确权](02-web3/own-data.md)
   * [2.6 用户渴望自持数据的几个具体场景](01-tech/cases.md)
-  * [2.7 平台](02-web3/platform.md)
+  * [2.7 平台互联网](02-web3/platform.md)
   * [2.8 平台的为何崛起](02-web3/monoply.md)
   * [2.9 可信第三方的去中心化](02-web3/ttp.md)
   * [2.10 如何理解隐私？](02-web3/crypto.md)
@@ -30,7 +30,7 @@
   * [3.5 区块链](03-comp/chain.md)
   * [3.6 Web3.0 的数据库](04-blockchain/base.md)
   * [3.7 去中心化身份](03-comp/did.md)
-  * [3.8 Chain Of Trust](05-did/cot.md)
+  * [3.8 信任链条 Chain Of Trust](05-did/cot.md)
 
 * 第四章 去中心化身份
   * [4.1 概要](05-did/intro.md)
@@ -49,9 +49,9 @@
   * [5.3 Web2.0 的 PKI](07-pki/pki.md)
   * [5.4 Web2.0 数字证书](07-pki/certificate.md)
   * [5.5 Namecoin 去中心化 DNS 尝试](07-pki/namecoin.md)
-  * [5.6 Web Of Trust](05-did/wot.md)
+  * [5.6 信任网络 Web Of Trust](05-did/wot.md)
 
-* 第六章 Web3.0 之上的 App 架构
+* 第六章 Web3.0 App 架构
   * [6.1 概要](08-app/intro.md)
   * [6.2 以太坊世界观下的 DApp](08-app/e-dapp.md)
   * [6.3 本书的 DApp 定义](08-app/my-dapp.md)
@@ -60,17 +60,17 @@
   * [6.6 女巫攻击和 Web3.0 决策机制](04-blockchain/sybil.md)
 
 * 第七章 Web3.0 时代的商业模型
-  * [7.1 概述](09-model/intro.md)
+  * [7.1 概要](09-model/intro.md)
   * [7.2 比特币的商业模式](09-model/co.md)
   * [7.3 开源软件的商业闭环](09-model/linux.md)
-  * [7.4 理解垄断](09-model/monoply.md)
-  * [7.5 零知识证明](09-model/zk.md)
-  * [7.6 GDPR 对产业的约束](09-model/gdpr.md)
-  * [7.7 个人数据机器人](09-model/sell.md)
-  * [7.8 如果理解垄断公司的崛起](09-model/mono.md)
+  * [7.4 零知识证明](09-model/zk.md)
+  * [7.5 GDPR 对产业的约束](09-model/gdpr.md)
+  * [7.6 个人数据机器人](09-model/sell.md)
+  * [7.7 垄断的形成](09-model/monoply.md)
+  * [7.8 垄断的下一步](09-model/mono.md)
 
-* 第八章 Web3.0 实战
- * [8.1 概述](10-blsk/intro.md)
+* 第八章 Web3.0 产业应用
+ * [8.1 概要](10-blsk/intro.md)
  * [8.2 Blockstack 概述](10-blsk/bs-intro.md)
  * [8.3 Blockstack 的三大核心组件](10-blsk/three.md)
  * [8.4 Gaia 数据存储系统](10-blsk/gaia.md)
@@ -79,7 +79,6 @@
  * [8.7 微软的去中心化身份系统](05-did/micro.md)
  * [8.8 微软的去中心化身份系统的工作细节](05-did/get.md)
  * [8.9 Zoom 的困境](10-blsk/zoom.md)
-
 
 * 第九章 结语
   * [9.1 个体的崛起](11-end/individual.md)
