@@ -1,6 +1,6 @@
 # Summary
 
-* [前言](intro.md)
+* [前言](00-intro/intro.md)
 
 * 第一章 技术的去中心化趋势
   * [1.1 概要](01-tech/intro.md)
