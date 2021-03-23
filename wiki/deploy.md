@@ -11,3 +11,14 @@
 - run `gitbook serve` imgs folder will be copied to /_book/imgs
 - `mv _book docs`
 - push, and I am ready to go.
+
+## Office word format
+- wirte episode title buy hand, from summary.md use h1 as format
+- 11pt for text main
+- copy text from md file
+- change the title for each part as h2
+- a blank line after each paragraph
+- run 'git serve' and copy img from localhost:4000 to shimo.im
+- everytime I need to modify sth, do the changes in .md file, then copy again
+  to shimo
+- do shimo to docx backup very often
