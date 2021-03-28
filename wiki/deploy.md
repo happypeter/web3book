@@ -17,7 +17,7 @@
 - 11pt for text main
 - copy text from md file
 - change the title for each part as h2
-- a blank line after each paragraph
+- a blank line after each paragraph/chapterTitle/episodeTitle, no blank line after section title
 - run 'git serve' and copy img from localhost:4000 to shimo.im
 - everytime I need to modify sth, do the changes in .md file, then copy again
   to shimo
