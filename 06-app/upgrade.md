@@ -46,4 +46,4 @@
 
 参考：
 
-- [1] https://www.w3.org/TR/did-core/
+- [1] 万维网委员会. 去中心化身份. https://www.w3.org/TR/did-core/
