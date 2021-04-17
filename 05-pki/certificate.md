@@ -40,10 +40,10 @@ HTTPS 就是安全的 HTTP 的意思，是一套用在浏览器和服务器之�
 
 关于数字证书我们要聊的就是这些了。关键点就是理解证书的作用，也就是认证所有人和公钥的关系。有了证书就可以避免中间人攻击，可以安全的建立起加密通道。但是我们要知道的是，这里的安全完全基于对一个第三方机构的信任。而 CA 为何值得信任呢？基本上就是因为 CA 一般都是大机构，都是政府认证的，等等这些传统的信任机制。不过当前，已经有区块链项目会通过去中心化的思路来“去信任”，来实现无需 CA 机构的数字证书，例如后面我们会介绍的 Namecoin 和 Handshake 。
 
-参考：
+## 参考
 
-- https://www.youtube.com/watch?v=33VYnE7Bzpk
-- https://www.youtube.com/watch?v=UbMlPIgzTxc&list=PLSNNzog5eyduzyJ8_6Je-tYOgMHvo344c
-- https://en.wikipedia.org/wiki/Certificate_authority
-- https://www.youtube.com/watch?v=T4Df5_cojAs
-- https://en.wikipedia.org/wiki/Identity_certificate
+- Sunny. SSL 证书是如何工作的. https://www.youtube.com/watch?v=33VYnE7Bzpk
+- Sunny. 什么是数字证书. https://www.youtube.com/watch?v=UbMlPIgzTxc
+- 维基百科. 发证机构. https://en.wikipedia.org/wiki/Certificate_authority
+- kubucation. HTTPS 的工作原理. https://www.youtube.com/watch?v=T4Df5_cojAs
+- 维基百科. 身份证书. https://en.wikipedia.org/wiki/Identity_certificate

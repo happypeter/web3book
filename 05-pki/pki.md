@@ -37,4 +37,4 @@ PKI 的具体形式有多种，但是目的就是一个：构建信任。这里�
 总结一下。 PKI 是用来跟公钥密码学配合，完成互联网上的安全通信的相关基础设置，主要的目的是构建信任。具体做法就是通过发行证书，并由 PKI 来签署证书，为其可信度背书。CA 是最常见的 PKI 的形式，但是目前人们也在努力构建去中心的 PKI ，例如 Web Of Trust 思路的 PKI 以及基于区块链的 PKI 。
 
 - 参考
-  - https://www.youtube.com/watch?v=LPxeYtMDxl0
+  - Sunny. 公钥基础设施. https://www.youtube.com/watch?v=LPxeYtMDxl0

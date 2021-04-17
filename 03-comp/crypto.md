@@ -40,7 +40,7 @@
 
 好，本节咱们对密码学做了一个简要的介绍，大体上要点有这么两点：第一，密码学是对安全通信技术的研究，要实现加密通信和数字签名两个功能。第二，密码学分对称加密和非对称加密两种思路，而非对称加密才能实现数字签名功能，是当代密码学的标志性技术。
 
-参考：
+## 参考
 
-- https://www.youtube.com/watch?v=8I7BNgD2Yag&list=PLSNNzog5eyduN6o4e6AKFHekbH5-37BdV&index=2
+- Sunny. 公钥加密. https://www.youtube.com/watch?v=8I7BNgD2Yag
 - 维基百科，密码学. https://en.wikipedia.org/wiki/Cryptography
