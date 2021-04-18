@@ -34,6 +34,5 @@ Web3.0 时代是个人持有数据的时代，是隐私需求非常高的时代�
 
 这就是对零知识证明的基本介绍了。我们要记住的是，零知识证明是一种密码学方法，示证者要在验证者对信息本身“零知识”的前提下去证明跟信息相关的某个命题是成立的。在 Web3.0 的数据经济时代，个人隐私问题尤其突出，零知识证明会大有用武之地。
 
-参考：
-
-- https://en.wikipedia.org/wiki/Zero-knowledge_proof
+## 参考
+- 维基百科. 零知识证明. https://en.wikipedia.org/wiki/Zero-knowledge_proof

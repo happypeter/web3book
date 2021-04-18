@@ -40,7 +40,6 @@ WOT 默认是不依赖任何中心化机构的，也选择不相信任何的第�
 
 最后总结一下。WOT 是一种密码学信任模型，用来认证身份证书。但是区别于 CA 方式，WOT 是去中心化的，证书的可信，来自于多个我可以信任的人对这个证书的推荐。但是 WOT 的问题也比较明显，那就是没有了第三方的辅助，信任的建立非常的麻烦。最安全的方式是肉身见面，但是成本极高，如果基于一些第三方渠道来沟通，又会使得安全性降低。所以 WOT 在日常生活中没有 CA 方式更为常用。
 
-参考：
-
-- https://en.wikipedia.org/wiki/Web_of_trust
-- https://rationalwiki.org/wiki/Web_of_trust
+## 参考
+- 维基百科. 网络化信任. https://en.wikipedia.org/wiki/Web_of_trust
+- 理性维基. 网络化信任. https://rationalwiki.org/wiki/Web_of_trust

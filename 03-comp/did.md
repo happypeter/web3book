@@ -74,4 +74,4 @@ did:example:123456789abcdefghi
 
 ## 参考
 
-- [1] DID Method Registry https://w3c-ccg.github.io/did-method-registry/
+- [1] DID 项目组. DID Method Registry. https://w3c-ccg.github.io/did-method-registry/
