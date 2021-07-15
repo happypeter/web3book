@@ -15,7 +15,7 @@
   * [2.3 智能合约全球愿景](02-web3/smart-c.md)
   * [2.4 数据要属于谁？](02-web3/who.md)
   * [2.5 数据确权](02-web3/own-data.md)
-  * [2.6 用户渴望自持数据的几个具体场景](01-tech/cases.md)
+  * [2.6 用户渴望自持数据的几个具体场景](02-web3/cases.md)
   * [2.7 平台互联网](02-web3/platform.md)
   * [2.8 平台的为何崛起](02-web3/monoply.md)
   * [2.9 可信第三方的去中心化](02-web3/ttp.md)
@@ -70,15 +70,15 @@
   * [7.8 垄断的下一步](07-model/mono.md)
 
 * 第八章 Web3.0 产业应用
- * [8.1 概要](08-blsk/intro.md)
- * [8.2 Blockstack 概述](08-blsk/bs-intro.md)
- * [8.3 Blockstack 的三大核心组件](08-blsk/three.md)
- * [8.4 Gaia 数据存储系统](08-blsk/gaia.md)
- * [8.5 Web 之父的 Web3.0 架构](08-blsk/lee.md)
- * [8.6 TWITTER：要协议不要平台](08-blsk/p-n-p.md)
- * [8.7 微软的去中心化身份系统](08-blsk/micro.md)
- * [8.8 微软的去中心化身份系统的工作细节](08-blsk/get.md)
- * [8.9 Zoom 的困境](08-blsk/zoom.md)
+  * [8.1 概要](08-blsk/intro.md)
+  * [8.2 Blockstack 概述](08-blsk/bs-intro.md)
+  * [8.3 Blockstack 的三大核心组件](08-blsk/three.md)
+  * [8.4 Gaia 数据存储系统](08-blsk/gaia.md)
+  * [8.5 Web 之父的 Web3.0 架构](08-blsk/lee.md)
+  * [8.6 TWITTER：要协议不要平台](08-blsk/p-n-p.md)
+  * [8.7 微软的去中心化身份系统](08-blsk/micro.md)
+  * [8.8 微软的去中心化身份系统的工作细节](08-blsk/get.md)
+  * [8.9 Zoom 的困境](08-blsk/zoom.md)
 
 * 第九章 结语
   * [9.1 个体的崛起](09-end/individual.md)
