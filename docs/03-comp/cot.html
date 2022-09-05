@@ -1,0 +1,1280 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <title>3.8 信任链条 Chain Of Trust · HonKit</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="HonKit 4.0.0">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/@honkit/honkit-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="did.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book honkit-cloak">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../00-intro/intro.html">
+            
+                <a href="../00-intro/intro.html">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    第一章 技术的去中心化趋势
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../01-tech/intro.html">
+            
+                <a href="../01-tech/intro.html">
+            
+                    
+                    1.1 概要
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../01-tech/hardware.html">
+            
+                <a href="../01-tech/hardware.html">
+            
+                    
+                    1.2 硬件的去中心化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../01-tech/opensource.html">
+            
+                <a href="../01-tech/opensource.html">
+            
+                    
+                    1.3 软件的去中心化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../01-tech/decouple.html">
+            
+                <a href="../01-tech/decouple.html">
+            
+                    
+                    1.4 数字世界独立化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../01-tech/dark.html">
+            
+                <a href="../01-tech/dark.html">
+            
+                    
+                    1.5 暗网
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    第二章 为何 Web3.0 是去中心化的？
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../02-web3/intro.html">
+            
+                <a href="../02-web3/intro.html">
+            
+                    
+                    2.1 概要
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../02-web3/history.html">
+            
+                <a href="../02-web3/history.html">
+            
+                    
+                    2.2 Web 架构的迭代
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../02-web3/smart-c.html">
+            
+                <a href="../02-web3/smart-c.html">
+            
+                    
+                    2.3 智能合约全球愿景
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../02-web3/who.html">
+            
+                <a href="../02-web3/who.html">
+            
+                    
+                    2.4 数据要属于谁？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../02-web3/own-data.html">
+            
+                <a href="../02-web3/own-data.html">
+            
+                    
+                    2.5 数据确权
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../02-web3/cases.html">
+            
+                <a href="../02-web3/cases.html">
+            
+                    
+                    2.6 用户渴望自持数据的几个具体场景
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="../02-web3/platform.html">
+            
+                <a href="../02-web3/platform.html">
+            
+                    
+                    2.7 平台互联网
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="../02-web3/monoply.html">
+            
+                <a href="../02-web3/monoply.html">
+            
+                    
+                    2.8 平台的为何崛起
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9" data-path="../02-web3/ttp.html">
+            
+                <a href="../02-web3/ttp.html">
+            
+                    
+                    2.9 可信第三方的去中心化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.10" data-path="../02-web3/privacy.html">
+            
+                <a href="../02-web3/privacy.html">
+            
+                    
+                    2.10 如何理解隐私？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.11" data-path="../02-web3/cloud.html">
+            
+                <a href="../02-web3/cloud.html">
+            
+                    
+                    2.11 云计算的去中心化
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    第三章 Web3.0 架构组件
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="intro.html">
+            
+                <a href="intro.html">
+            
+                    
+                    3.1 概要
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="123.html">
+            
+                <a href="123.html">
+            
+                    
+                    3.2 一个目标，两项技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="crypto.html">
+            
+                <a href="crypto.html">
+            
+                    
+                    3.3 密码学
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="bitcoin.html">
+            
+                <a href="bitcoin.html">
+            
+                    
+                    3.4 比特币实现的一个实质性技术突破
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="chain.html">
+            
+                <a href="chain.html">
+            
+                    
+                    3.5 区块链
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="base.html">
+            
+                <a href="base.html">
+            
+                    
+                    3.6 Web3.0 的数据库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7" data-path="did.html">
+            
+                <a href="did.html">
+            
+                    
+                    3.7 去中心化身份
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5.8" data-path="cot.html">
+            
+                <a href="cot.html">
+            
+                    
+                    3.8 信任链条 Chain Of Trust
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    第四章 去中心化身份
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../04-did/intro.html">
+            
+                <a href="../04-did/intro.html">
+            
+                    
+                    4.1 概要
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../04-did/auth.html">
+            
+                <a href="../04-did/auth.html">
+            
+                    
+                    4.2 身份认证是怎样一个过程？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../04-did/evo.html">
+            
+                <a href="../04-did/evo.html">
+            
+                    
+                    4.3 身份系统的演化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../04-did/self-id.html">
+            
+                <a href="../04-did/self-id.html">
+            
+                    
+                    4.4 身份自主化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../04-did/details.html">
+            
+                <a href="../04-did/details.html">
+            
+                    
+                    4.5 DID 的基本结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="../04-did/privacy.html">
+            
+                <a href="../04-did/privacy.html">
+            
+                    
+                    4.6 DID 的隐私保护思路
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7" data-path="../04-did/vc.html">
+            
+                <a href="../04-did/vc.html">
+            
+                    
+                    4.7 DID 的智能合约：可验证证书
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.8" data-path="../04-did/why-chain.html">
+            
+                <a href="../04-did/why-chain.html">
+            
+                    
+                    4.8 DID 非要通过区块链实现吗？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.9" data-path="../04-did/handshake.html">
+            
+                <a href="../04-did/handshake.html">
+            
+                    
+                    4.9 另一条路：去中心化名字系统 Handshake
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    第五章 去中心化的 DNS 和 PKI
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../05-pki/intro.html">
+            
+                <a href="../05-pki/intro.html">
+            
+                    
+                    5.1 概要
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../05-pki/dns.html">
+            
+                <a href="../05-pki/dns.html">
+            
+                    
+                    5.2 DNS 是如何工作的？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../05-pki/pki.html">
+            
+                <a href="../05-pki/pki.html">
+            
+                    
+                    5.3 Web2.0 的 PKI
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../05-pki/certificate.html">
+            
+                <a href="../05-pki/certificate.html">
+            
+                    
+                    5.4 Web2.0 数字证书
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.5" data-path="../05-pki/namecoin.html">
+            
+                <a href="../05-pki/namecoin.html">
+            
+                    
+                    5.5 Namecoin 去中心化 DNS 尝试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.6" data-path="../05-pki/wot.html">
+            
+                <a href="../05-pki/wot.html">
+            
+                    
+                    5.6 信任网络 Web Of Trust
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" >
+            
+                <span>
+            
+                    
+                    第六章 Web3.0 App 架构
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../06-app/intro.html">
+            
+                <a href="../06-app/intro.html">
+            
+                    
+                    6.1 概要
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../06-app/e-dapp.html">
+            
+                <a href="../06-app/e-dapp.html">
+            
+                    
+                    6.2 以太坊世界观下的 DApp
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../06-app/my-dapp.html">
+            
+                <a href="../06-app/my-dapp.html">
+            
+                    
+                    6.3 本书的 DApp 定义
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.4" data-path="../06-app/upgrade.html">
+            
+                <a href="../06-app/upgrade.html">
+            
+                    
+                    6.4 信任模型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5" data-path="../06-app/protocol.html">
+            
+                <a href="../06-app/protocol.html">
+            
+                    
+                    6.5 什么是协议？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.6" data-path="../06-app/sybil.html">
+            
+                <a href="../06-app/sybil.html">
+            
+                    
+                    6.6 女巫攻击和 Web3.0 决策机制
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" >
+            
+                <span>
+            
+                    
+                    第七章 Web3.0 时代的商业模型
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../07-model/intro.html">
+            
+                <a href="../07-model/intro.html">
+            
+                    
+                    7.1 概要
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../07-model/co.html">
+            
+                <a href="../07-model/co.html">
+            
+                    
+                    7.2 比特币的商业模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3" data-path="../07-model/linux.html">
+            
+                <a href="../07-model/linux.html">
+            
+                    
+                    7.3 开源软件的商业闭环
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4" data-path="../07-model/zk.html">
+            
+                <a href="../07-model/zk.html">
+            
+                    
+                    7.4 零知识证明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.5" data-path="../07-model/gdpr.html">
+            
+                <a href="../07-model/gdpr.html">
+            
+                    
+                    7.5 GDPR 对产业的约束
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.6" data-path="../07-model/sell.html">
+            
+                <a href="../07-model/sell.html">
+            
+                    
+                    7.6 个人数据机器人
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.7" data-path="../07-model/monoply.html">
+            
+                <a href="../07-model/monoply.html">
+            
+                    
+                    7.7 垄断的形成
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.8" data-path="../07-model/mono.html">
+            
+                <a href="../07-model/mono.html">
+            
+                    
+                    7.8 垄断的下一步
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" >
+            
+                <span>
+            
+                    
+                    第八章 Web3.0 产业应用
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="../08-blsk/intro.html">
+            
+                <a href="../08-blsk/intro.html">
+            
+                    
+                    8.1 概要
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2" data-path="../08-blsk/bs-intro.html">
+            
+                <a href="../08-blsk/bs-intro.html">
+            
+                    
+                    8.2 Blockstack 概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3" data-path="../08-blsk/three.html">
+            
+                <a href="../08-blsk/three.html">
+            
+                    
+                    8.3 Blockstack 的三大核心组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.4" data-path="../08-blsk/gaia.html">
+            
+                <a href="../08-blsk/gaia.html">
+            
+                    
+                    8.4 Gaia 数据存储系统
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.5" data-path="../08-blsk/lee.html">
+            
+                <a href="../08-blsk/lee.html">
+            
+                    
+                    8.5 Web 之父的 Web3.0 架构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.6" data-path="../08-blsk/p-n-p.html">
+            
+                <a href="../08-blsk/p-n-p.html">
+            
+                    
+                    8.6 TWITTER：要协议不要平台
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.7" data-path="../08-blsk/micro.html">
+            
+                <a href="../08-blsk/micro.html">
+            
+                    
+                    8.7 微软的去中心化身份系统
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.8" data-path="../08-blsk/get.html">
+            
+                <a href="../08-blsk/get.html">
+            
+                    
+                    8.8 微软的去中心化身份系统的工作细节
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.9" data-path="../08-blsk/zoom.html">
+            
+                <a href="../08-blsk/zoom.html">
+            
+                    
+                    8.9 Zoom 的困境
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" >
+            
+                <span>
+            
+                    
+                    第九章 结语
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.11.1" data-path="../09-end/individual.html">
+            
+                <a href="../09-end/individual.html">
+            
+                    
+                    9.1 个体的崛起
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            Published with HonKit
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >3.8 信任链条 Chain Of Trust</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p>有一种信任模型叫做信任链（ Chain Of Trust ）我们书中会提到跟它相关的一些术语，例如信任之根，根证书等等。所以这节来看看这些术语都是什么意思。</p>
+<h2 id="chain-of-trust-信任链">Chain Of Trust 信任链</h2>
+<p>不管是在日常生活中还是在计算机网络条件下，信任往往都是分层的，通常我们看到的信任，仔细想想都是基于一个多层信任形成的链条，这就是本书中所说的信任链。</p>
+<p>以日常生活为例。我相信门可以保护我，因为我相信锁，而锁值得相信来自于对钥匙的信任。门，锁，钥匙，就形成一条链。又比如我去一个超市门店买东西，之所以相信门店，是因为信任这个门店背后的公司，而之所以相信这个公司不会欺骗，是因为相信法院会在我的权益受到侵害的时候介入。门店，公司，法院又形成一个信任的链条。</p>
+<p>这种分层的链式信任结构的好处是让“信任”这种珍贵的资源可以被放大。我们知道法院要比一家小小的门店可信，但是如果买个东西这样的小事，都需要去法院去登记一下，那么法院就会忙不过来，要知道更高可信度来自更高的安全保证，而更高的安全性保证是有很高成本的。而通过链式结构，把法院的信任传递给门店，是一种非常聪明的做法。</p>
+<h2 id="root-of-trust-信任之根">Root Of Trust 信任之根</h2>
+<p>信任链是否安全，很大程度上取决与最终极的那个可信任的实体是不是足够值得信任，而这个实体就被称为“信任之根”，也有的资料上称之为”信任锚“。</p>
+<p>信任之根的是信任的起点，特点是它的信任不依赖任何东西，而是无条件的信任。或者说是自己要保证自己的可信。上面的门的例子中，钥匙是信任之根，如果钥匙被人拷贝了，这个门不管怎么加固也不安全了。在门店的例子中，法院是信任之根，门店出现欺诈可以打电话给公司投诉，公司不行，还可以告到法院，但是法院如果还是不可信，那么就再也没有上一级的可信机构了，所以法院是这条链的信任之根。</p>
+<h2 id="什么可以作为信任之根？">什么可以作为信任之根？</h2>
+<p>那计算机语境下，什么适合用来做信任之根呢？肯定都是安全度相对较高的东西。</p>
+<p>首先可以把硬件作为软件系统的信任之根。软件系统最怕的是软件被黑客篡改。所以可以让系统的启动加载程序 bootloader 去检查上层软件是否被篡改过。但是 bootloader 本身也是软件，也有被篡改的可能，所以可以在硬件层面上去保证 bootloader 没有被篡改过。可以在系统加电后首先执行一个硬件电路，检查 bootloader 是否被篡改。这里，硬件被认为是安全度更高的存在，因为黑客可以修改软件，但是却不能远程修改硬件。</p>
+<p>对于计算机通信时候采用的数字证书而言，大组织是信任之根。数字证书一般会采用一个信任链的结构。终端用户的证书，是由中间发证机构（ CA ）来签署的，使用的是中间机构的私钥，而中间机构之所以可信，是因为有更上级的发证机构用自己的私钥来签署一个确认中间机构的证书。最顶端的发证机构会用自己的私钥给自己签署一个证书，这家发证机构就是整个系统的信任之根，而它给自己签发的证书，就叫做“根证书”。</p>
+<p>Web2.0 条件下，大部分系统的信任之根都是某个机构的数据库，例如 DNS 的根域名系统基于 ICANN 公司的数据库。网上支付，信任之跟是支付宝的数据库，PKI 系统是基于某个 CA 的数据库。这些数据库都是封闭的，不可验证的。Web3.0 下，我们期待用区块链来做信任之根。</p>
+<h2 id="结论">结论</h2>
+<p>信任链是当前我们的肉身世界以及网络世界最主要的信任模型之一。低安全度组织逐级依托高安全度组织来达成可信，分层的信任形成一个信任链条。Web3.0 会以区块链为信任之根，而区块链自身的信任模型却不是 Chain Of Trust ，而是更接近 Web Of Trust ，具体情况后续章节中会展开。</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="did.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 3.7 去中心化身份">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"3.8 信任链条 Chain Of Trust","level":"1.5.8","depth":2,"next":{"title":"第四章 去中心化身份","level":"1.6","depth":1,"ref":"","articles":[{"title":"4.1 概要","level":"1.6.1","depth":2,"path":"04-did/intro.md","ref":"04-did/intro.md","articles":[]},{"title":"4.2 身份认证是怎样一个过程？","level":"1.6.2","depth":2,"path":"04-did/auth.md","ref":"04-did/auth.md","articles":[]},{"title":"4.3 身份系统的演化","level":"1.6.3","depth":2,"path":"04-did/evo.md","ref":"04-did/evo.md","articles":[]},{"title":"4.4 身份自主化","level":"1.6.4","depth":2,"path":"04-did/self-id.md","ref":"04-did/self-id.md","articles":[]},{"title":"4.5 DID 的基本结构","level":"1.6.5","depth":2,"path":"04-did/details.md","ref":"04-did/details.md","articles":[]},{"title":"4.6 DID 的隐私保护思路","level":"1.6.6","depth":2,"path":"04-did/privacy.md","ref":"04-did/privacy.md","articles":[]},{"title":"4.7 DID 的智能合约：可验证证书","level":"1.6.7","depth":2,"path":"04-did/vc.md","ref":"04-did/vc.md","articles":[]},{"title":"4.8 DID 非要通过区块链实现吗？","level":"1.6.8","depth":2,"path":"04-did/why-chain.md","ref":"04-did/why-chain.md","articles":[]},{"title":"4.9 另一条路：去中心化名字系统 Handshake","level":"1.6.9","depth":2,"path":"04-did/handshake.md","ref":"04-did/handshake.md","articles":[]}]},"previous":{"title":"3.7 去中心化身份","level":"1.5.7","depth":2,"path":"03-comp/did.md","ref":"03-comp/did.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"03-comp/cot.md","mtime":"2021-01-28T13:15:08.078Z","type":"markdown"},"gitbook":{"version":"4.0.0","time":"2022-09-05T15:10:45.663Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
